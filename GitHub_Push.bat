@@ -1,4 +1,4 @@
 set /p var=pleause input commit:
 git add *
 git commit -m %var%
-git push
+git push -u origin main
