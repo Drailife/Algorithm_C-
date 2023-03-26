@@ -38,6 +38,7 @@ int main() {
 	cout << deque.front()<<endl;
 	cout << deque.back()<<endl;
 	cout << *deque.begin()<<endl;
+	cout << endl;
     return 0;
 }
 
