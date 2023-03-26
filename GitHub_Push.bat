@@ -1,5 +1,6 @@
-set /p var=请输入更新内容:
+set /p var=pleause input commit:
 git add *
-git commit -m %var
+pause
+git commit -m %var%
 git push
 cmd
